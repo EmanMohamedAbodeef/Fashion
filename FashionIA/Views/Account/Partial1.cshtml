@@ -1,0 +1,20 @@
+﻿@model FashionIA.Models.User
+
+@{
+    ViewBag.Title = "Show Password";
+    @Styles.Render("~/Content/All.css")
+
+}
+
+
+@if (Session["UID"] != null)
+{
+    <h4>
+   
+      Your PassWord Is :&nbsp; @Session["Password"].ToString()<br />
+
+        <br />
+        @Html.ActionLink("LogOut", "LogOut", "Account")
+    </h4>
+
+}

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<FashionIA.Models.Feedback>
+
+@{
+    ViewBag.Title = "Index";
+        @Styles.Render("~/Content/All.css")
+
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VistorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VistorEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comment)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.VistorName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VistorEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Comment)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.VistorId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.VistorId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.VistorId })
+        </td>
+    </tr>
+}
+
+</table>

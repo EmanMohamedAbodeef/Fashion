@@ -1,0 +1,90 @@
+/*******star shops page******/
+ body
+{
+	background: url('img/18.png') no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+/**********navbar*******/
+.navbar {
+	background:rgba(3,3,3,0.8);
+
+}
+.navbar .navbar-nav > li > a:hover
+{
+ background-color: #000;
+ color: orange;
+}
+
+.navbar .navbar-nav > li{
+}
+
+.navbar .navbar-nav > li > a {
+	color:white;
+	font-family:MV Boli;
+	font-size:17px;
+}
+.navbar-brand{
+	color : white;
+	font-size:25px;
+}
+.navbar-brand a:hover {color: #000;}
+/*********end navbar******/
+/*******start shops sections****/
+.shop div.sec2
+{
+	padding-top: 80px;
+}
+.shop div.sec1
+{
+	padding-top: 80px;
+
+}
+.shop p > a > img
+{
+	height: 43px;
+	width: 43px;
+	float: right;
+}
+.shop p
+{
+	font-size: 17px;
+   font-family:MV Boli;
+}
+.shop h3
+{
+	font-colo
+}
+/***********end shops sectio *****/
+/**********start contact*******/
+.contact
+{
+	background-color:rgba(2,2,2,0.7);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	height: 350px;
+}
+.contact h1
+{
+	padding-left: 700px;
+	color: orange ;
+	padding-top: 20px;
+	font-family: MV Boli;
+}
+.item1
+{
+	padding-top: 30px;
+}
+.item1 label
+{
+	font-size: 15px;
+	color: orange ;
+	font-family: MV Boli;
+}
+
+/*********end contact *********/
+/*******end shops page******/

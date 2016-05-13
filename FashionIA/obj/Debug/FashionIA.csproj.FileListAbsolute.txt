@@ -1,0 +1,183 @@
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\FashionIA.dll.config
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\FashionIA.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\FashionIA.pdb
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Antlr3.Runtime.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\EntityFramework.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\EntityFramework.SqlServer.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Google.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Web.Infrastructure.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Newtonsoft.Json.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Owin.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.Helpers.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.Mvc.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.Optimization.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.Razor.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.WebPages.Deployment.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.WebPages.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.WebPages.Razor.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\WebGrease.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.Helpers.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.Mvc.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.Optimization.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.Razor.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.WebPages.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.WebPages.Deployment.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\System.Web.WebPages.Razor.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Newtonsoft.Json.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Antlr3.Runtime.pdb
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\EntityFramework.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\EntityFramework.SqlServer.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Google.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\obj\Debug\FashionIA.dll
+c:\users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\obj\Debug\FashionIA.pdb
+C:\Users\menna\Documents\Visual Studio 2013\Projects\FashionIA\FashionIA\bin\Autofac.dll
+C:\Users\menna\Documents\Visual Studio 2013\Projects\FashionIA\FashionIA\bin\Autofac.Integration.Mvc.dll
+C:\Users\menna\Documents\Visual Studio 2013\Projects\FashionIA\FashionIA\bin\Autofac.xml
+C:\Users\menna\Documents\Visual Studio 2013\Projects\FashionIA\FashionIA\bin\Autofac.Integration.Mvc.xml
+C:\Users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\obj\Debug\FashionIA.csprojResolveAssemblyReference.cache
+C:\Users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\obj\Debug\FashionIA.Migrations.initial.resources
+C:\Users\menna\documents\visual studio 2013\Projects\FashionIA\FashionIA\obj\Debug\FashionIA.csproj.GenerateResource.Cache
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\FashionIA.dll.config
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\FashionIA.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\FashionIA.pdb
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Antlr3.Runtime.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Autofac.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Autofac.Integration.Mvc.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\EntityFramework.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\EntityFramework.SqlServer.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Newtonsoft.Json.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Owin.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.Helpers.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.Mvc.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.Optimization.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.Razor.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.WebPages.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.WebPages.Razor.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\WebGrease.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Autofac.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Autofac.Integration.Mvc.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\EntityFramework.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\EntityFramework.SqlServer.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.Helpers.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.Mvc.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.Razor.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.WebPages.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.WebPages.Razor.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\System.Web.Optimization.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Newtonsoft.Json.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Antlr3.Runtime.pdb
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\obj\Debug\FashionIA.csprojResolveAssemblyReference.cache
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\obj\Debug\FashionIA.Migrations.initial.resources
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\obj\Debug\FashionIA.csproj.GenerateResource.Cache
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\obj\Debug\FashionIA.dll
+C:\Users\samsung\Desktop\LAST\new\FashionIA\FashionIA\obj\Debug\FashionIA.pdb
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\FashionIA.dll.config
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\FashionIA.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\FashionIA.pdb
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Antlr3.Runtime.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Autofac.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Autofac.Integration.Mvc.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\EntityFramework.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\EntityFramework.SqlServer.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Newtonsoft.Json.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Owin.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.Helpers.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.Mvc.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.Optimization.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.Razor.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.WebPages.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.WebPages.Razor.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\WebGrease.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Autofac.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Autofac.Integration.Mvc.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\EntityFramework.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\EntityFramework.SqlServer.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.Helpers.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.Mvc.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.Razor.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.WebPages.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.WebPages.Razor.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\System.Web.Optimization.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Newtonsoft.Json.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Antlr3.Runtime.pdb
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\obj\Debug\FashionIA.csprojResolveAssemblyReference.cache
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\obj\Debug\FashionIA.Migrations.initial.resources
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\obj\Debug\FashionIA.csproj.GenerateResource.Cache
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\obj\Debug\FashionIA.dll
+C:\Users\menna\Documents\Visual Studio 2013\FashionIA\FashionIA\FashionIA\obj\Debug\FashionIA.pdb

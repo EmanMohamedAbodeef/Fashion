@@ -1,0 +1,85 @@
+body{
+	        font-size:16px;
+		background:#DDD;
+		background:url('img/im12.jpg')no-repeat center center fixed ;
+		-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+
+
+}
+
+/**********navbar*******/
+.col-lg-6 {
+    width: 50%;
+    margin-bottom: 30px;
+}
+.navbar {
+	background:rgba(3,3,3,0.8);
+
+}
+.navbar .navbar-nav > li > a:hover
+{
+ background-color: #000;
+ color: orange;
+}
+
+.navbar .navbar-nav > li{
+}
+
+.navbar .navbar-nav > li > a {
+	color:white;
+	font-family:MV Boli;
+	font-size:17px;
+}
+.navbar-brand{
+	color : white;
+	font-size:25px;
+}
+.navbar-brand a:hover {color: #000;}
+/*********end navbar******/
+
+.styl{
+    font-family: 'Stalinist One', cursive;
+    color:#789E79;
+    margin-bottom:0px;
+   margin-top:2px;
+}
+
+.header{
+    font-family: 'Stalinist One', cursive;
+    color:#342322;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.form-header{
+    font-family: MV Boli;
+    color:#342322;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+
+.form-control {
+		height:60px;
+		background:rgba(109, 105, 109, 0.1);
+		color:white;
+
+}
+
+.form-bo{
+	margin-top:5px;
+}
+
+
+.item .btn-success{
+    margin-top:3px;
+    margin-bottom:5px;
+}
+
+.price-box img{
+  width:150px;
+ height:150px;
+}

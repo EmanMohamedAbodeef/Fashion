@@ -1,0 +1,90 @@
+﻿@model IEnumerable<FashionIA.Models.Article>
+
+@{
+    ViewBag.Title = "Index2";
+    @Styles.Render("~/Content/All.css")
+
+}
+<div class="container" style="padding-top: 10px;">
+    <h1 class="page-header">Chief Editor Profile</h1>
+    <div class="row">
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="text-center">
+                @using (Html.BeginForm("Upload2", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+                    
+
+                        <img src="~/images/@ViewBag.Image" width="300px" height="300px" /><br />
+                        <br />
+                        <br />
+                        <input type="file" name="file" class="well well-sm" />                   
+                        <input type="submit" value="Upload Image" name="Command" /><br />
+                   
+                    <div>
+                        @ViewBag.Message
+                    </div>
+                }
+                </div>
+               </div>
+
+               
+        <div class="col-md-8 col-sm-6 col-xs-12 personal-info">
+            <div class="alert alert-info alert-dismissable">
+                <a class="panel-close close" data-dismiss="alert">×</a>
+                <i class="fa fa-coffee"></i>
+                This is an <strong>.alert</strong>. Use this to show important messages to the user.
+            </div>
+            <h3>Personal info</h3>
+            <form class="form-horizontal" role="form">
+                @if (Session["UID"] != null)
+                {
+                    <section class="container">
+                        @*<section class="info">*@
+                            <div class="form-group">
+                                    <label class="col-lg-3 control-label">Name :</label>
+                                <div class="col-lg-8">
+                                     <label class="control-label">@Session["Name"].ToString()</label>
+                                </div>
+                            </div>                          
+                            <div class="form-group">
+                                   <label class="col-lg-3 control-label">Role :</label>
+                                <div class="col-lg-8">
+                                    <label class="control-label">@Session["Role"].ToString()</label>
+                                </div>
+                            </div>                          
+                            <div class="form-group">
+                               <label class="col-lg-3 control-label">Email :</label>
+                                <div class="col-lg-8">
+                                  <label class="control-label">@Session["Email"].ToString()</label>
+                                </div>
+                            </div>
+                            @*<div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Save" class="btn btn-default" />
+                                </div>
+                            </div>*@
+                            @*</section>*@
+                            <br />
+                            <br />
+                            <div class="container btn-group text-center">
+                                <input class="btn btn-info" type="button" value="Your History" onclick="location.href='@Url.Action("History", "Temp")'" />
+                                <input class="btn btn-warning" type="button" value="Manage Article" onclick="location.href='@Url.Action("Index", "Article")'" />
+                                <input class="btn btn-success" type="button" value="Manage Users" onclick="location.href='@Url.Action("Index", "Account")'" />
+                                <input class="btn btn-primary" type="button" value="Manage Advertisments" onclick="location.href='@Url.Action("Index", "Advertises")'" />
+                                <input class="btn btn-warning" type="button" value="go to Wall" onclick="location.href='@Url.Action("Index", "Temp")'" />
+                                <input class="btn btn-info" type="button" value="Add Article To Wall" onclick="location.href='@Url.Action("Create", "Temp")'" />
+                                <input class="btn btn-danger" type="button" value="Log out" onclick="location.href='@Url.Action("LogOut", "Account")'" />
+
+                            </div>
+                        </section>
+
+                }
+                </form>
+            </div>
+
+
+        </div>
+
+        </div>

@@ -1,0 +1,84 @@
+﻿@model IEnumerable<FashionIA.Models.Article>
+
+@{
+    ViewBag.Title = "Index";
+            @Styles.Render("~/Content/All.css")
+
+}
+
+<h2>Data Of Articles</h2>
+<h4>You Can Manage Articles in This Page</h4>
+<br/>
+<br />
+<br />
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find by Title: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ViewNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.feild)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AuthorNAme)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AuthorRole)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ViewNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.feild)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AuthorNAme)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AuthorRole)
+        </td>
+        <td>
+            @Html.ActionLink("Editt", "Editt", new { id=item.ArticleId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ArticleId }) |          
+            <input id="btnAccept" class="btn" type="button" value="Refuse" onclick="location.href='@Url.Action("Delete", "Article", new { id = item.ArticleId })'" />
+            @if (@Session["Role"].ToString() == "admin")
+            {
+            <input id="btnRefuse" class="btn" type="button" value="Accept" onclick="location.href='@Url.Action("Edit", "Article", new { id = item.ArticleId })'" />
+            }
+
+            </td>
+        </tr>
+    }
+
+    </table>

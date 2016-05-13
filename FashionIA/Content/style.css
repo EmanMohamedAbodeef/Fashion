@@ -1,0 +1,50 @@
+﻿.big
+{
+        background:url('img/28.jpg')no-repeat center center  ;
+
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+/*******start section about******/
+.header
+{	height: 350px;
+	margin-bottom: 30px;
+	margin-top:0px
+}
+.header p.lead
+{
+	margin-top: 15px;
+	font-size:20px;
+	font-family:MV Boli;
+}
+.header h1 
+{
+	font-size: 40px;
+		font-family:MV Boli;
+
+}
+.header h1 span 
+{
+	color: #E41B17;
+}
+.header .info{
+	margin-top:70px;
+}
+.header img
+{ margin-bottom:100px;
+    height: 250px;
+	width: 200px;
+
+}
+/*******end section about******/
+.sec
+{
+	height: 1000px;
+}
+
+.thumbnail{
+	margin-top:50px;
+}
+

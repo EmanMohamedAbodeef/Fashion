@@ -1,0 +1,44 @@
+﻿@model FashionIA.Models.Feedback
+
+@{
+    ViewBag.Title = "Details";
+        @Styles.Render("~/Content/All.css")
+
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Feedback</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.VistorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VistorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VistorEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VistorEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Comment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comment)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.VistorId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

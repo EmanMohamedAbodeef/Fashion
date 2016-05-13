@@ -1,0 +1,62 @@
+﻿@model FashionIA.Models.User
+
+@{
+    ViewBag.Title = "Login";
+            @Styles.Render("~/Content/All.css")
+
+}
+
+<h2 >Login</h2>
+<hr/>
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+
+            @Html.ValidationSummary(true)
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email)
+                    @Html.ValidationMessageFor(model => model.Email)
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Role, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.RadioButtonFor(m => m.Role, "Admin")admin|
+                    @Html.RadioButtonFor(m => m.Role, "Editor")editor|
+                    @Html.RadioButtonFor(m => m.Role, "User")User
+
+
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Password)
+                    @Html.ValidationMessageFor(model => model.Password)
+                </div>
+            </div>
+            <h4>@ViewBag.Message</h4>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Login" class="btn btn-default" /> |
+                    <input id="btnRefuse" class="btn" type="button" value="Register Now" onclick="location.href='@Url.Action("Create")'" />
+
+                </div>
+            </div>
+
+        </div>
+   
+   
+    }
+

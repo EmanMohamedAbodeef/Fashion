@@ -1,0 +1,279 @@
+﻿@model IEnumerable<FashionIA.Models.TempArticle>
+
+@{
+    ViewBag.Title = "Wall";
+                @Styles.Render("~/Content/All_.css")
+}
+<style>
+    body{
+	        font-size:16px;
+		background:#DDD;
+		background:url('img/111.jpg')no-repeat center center fixed ;
+		-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+
+
+}
+    table {
+        background: #f5f5f5;
+        border-collapse: separate;
+        box-shadow: inset 0 1px 0 #fff;
+        font-size: 12px;
+        line-height: 24px;
+        margin: 30px auto;
+        text-align: left;
+        width: 800px;
+    }
+
+    th {
+        background: url(http://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+        border-left: 1px solid #555;
+        border-right: 1px solid #777;
+        border-top: 1px solid #555;
+        border-bottom: 1px solid #333;
+        box-shadow: inset 0 1px 0 #999;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 15px;
+        position: relative;
+        text-shadow: 0 1px 0 #000;
+        text-shadow: 0 1px 0 #fff;
+    }
+
+        th:after {
+            background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+            content: '';
+            display: block;
+            height: 25%;
+            left: 0;
+            margin: 1px 0 0 0;
+            position: absolute;
+            top: 25%;
+            width: 100%;
+        }
+
+        th:first-child {
+            border-left: 1px solid #777;
+            box-shadow: inset 1px 1px 0 #999;
+        }
+
+        th:last-child {
+            box-shadow: inset -1px 1px 0 #999;
+        }
+
+    td {
+        border-right: 1px solid #fff;
+        border-left: 1px solid #e8e8e8;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 10px 15px;
+        position: relative;
+        transition: all 300ms;
+    }
+
+        td:first-child {
+            box-shadow: inset 1px 0 0 #fff;
+        }
+
+        td:last-child {
+            border-right: 1px solid #e8e8e8;
+            box-shadow: inset -1px 0 0 #fff;
+        }
+
+    tr {
+        background: url(http://jackrugile.com/images/misc/noise-diagonal.png);
+    }
+
+        tr:nth-child(odd) td {
+            background: #f1f1f1 url(http://jackrugile.com/images/misc/noise-diagonal.png);
+        }
+
+        tr:last-of-type td {
+            box-shadow: inset 0 -1px 0 #fff;
+        }
+
+            tr:last-of-type td:first-child {
+                box-shadow: inset 1px -1px 0 #fff;
+            }
+
+            tr:last-of-type td:last-child {
+                box-shadow: inset -1px -1px 0 #fff;
+            }
+
+    tbody:hover td {
+        color: transparent;
+        text-shadow: 0 0 3px #aaa;
+    }
+
+    tbody:hover tr:hover td {
+        color: #444;
+        text-shadow: 0 1px 0 #fff;
+    }
+</style>
+
+<body class="body" >
+    <div class="row">
+        <br/>
+        <div class="col-lg-2">
+            <div class="sidebar-nav">
+                <div class="navbar navbar-default" role="navigation">
+
+                    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                    <br/><br />
+
+                        <ul class="nav navbar-navi">
+                            @if (@Session["UID"] == null)
+                            {
+                                <li class="page-scroll"> @Html.ActionLink("Login", "Login", "Account")</li>
+                            }
+                            <li class="page-scroll"> @Html.ActionLink("Beauty Tips", "beauty", "Home")</li>
+                            <li class="page-scroll">@Html.ActionLink("Men Section", "men", "Home")</li>
+                            <li class="page-scroll"> @Html.ActionLink("Women Section", "women", "Home")</li>
+                            <li class="page-scroll"> @Html.ActionLink("Price Sections", "bootstrap", "Home")</li>
+                            <li class="page-scroll"> @Html.ActionLink("Our Shops", "shops", "Home")</li>
+                            <li class="page-scroll"> @Html.ActionLink("FAQ", "About", "Home")</li>
+                            <li class="page-scroll"> @Html.ActionLink("Contact Us", "Create", "Feedback")</li>
+                            <li class="page-scroll"> @Html.ActionLink("Rate Site ", "Create_", "Votes")</li>
+
+                        </ul>
+                        <br />
+                        <br />
+                    </div><!--/.nav-collapse -->
+                    <br />
+                    <br />
+                    <br />
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                </div>
+                <br />
+                <br />
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <br />
+            <br />
+            <h2>Wall Page</h2>
+            <h6>Articles you might need</h6>
+            <hr/>
+            @using (Html.BeginForm())
+            {
+                <p>
+                    Find by Title: @Html.TextBox("SearchString")
+                    <input type="submit" value="Search" />
+                </p>
+            }
+            <table class="table" border="0">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </th>
+                    <th>
+                       Article Rate
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Title)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Content)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.feild)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AuthorNAme)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AuthorRole)
+                    </th>
+                    <th></th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ViewNo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Content)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.feild)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AuthorNAme)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AuthorRole)
+                        </td>
+                        <td>
+                            <input class="btn btn-info" type="button" value="Show More" onclick="location.href='@Url.Action("Details", "Temp", new { id = item.ArticleId })'" />
+                        </td>
+                        <td>
+                            @if (@Session["UID"] != null)
+                            {
+                                <input class="btn btn-primary" type="button" value="Add to favourites" onclick="location.href='@Url.Action("Edit", "Temp", new { id = item.ArticleId })'" />
+                            }
+
+                        </td>
+
+                    </tr>
+                }
+
+            </table>
+
+        </div>
+    </div>
+    <!-- start footer -->
+    <footer class="footer thumbnail">
+        <div class="container">
+            <div class="row">
+
+                <!-- .span3 -->
+                <div class="col-lg-6">
+                    <div class="footer-widget">
+                        <h2 class="h2">Address</h2>
+                        <ul>
+                            <li>
+                                <span class="glyphicon glyphicon-map-marker p" aria-hidden="true"> <a href="#"> 105 Tahrir Street<br><br>CHARLEVILLE, QLD </a></span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-earphone p" aria-hidden="true"> <a href="tel:07 4654 2737"> 08 48554 221567 </a></span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-envelope p" aria-hidden="true"> <a href="#"> lacoste@redcountry.com.au </a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer-widget">
+                        <h2 class="h2">Quick Links</h2>
+                        <ul>
+                            <li class="li">
+                                <span class="glyphicon glyphicon-play" aria-hidden="true"><a href="@Url.Action("Create", "Feedback")">Feedback</a></span>
+                            </li>
+
+                            <li class="li">
+                                <span class="glyphicon glyphicon-play" aria-hidden="true"><a href="@Url.Action("About", "Home")">About_us</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+  
+</body>
+   

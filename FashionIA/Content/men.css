@@ -1,0 +1,101 @@
+﻿.men{
+    background:url('img/m1.jpg')no-repeat center center fixed ;
+		-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+    height: 600px;
+   
+    
+}
+/**********navbar*******/
+.navbar {
+    background:rgba(3,3,3,0.8);
+
+}
+.navbar .navbar-nav > li > a:hover
+{
+ background-color: #000;
+ color: orange;
+}
+
+.navbar .navbar-nav > li{
+}
+
+.navbar .navbar-nav > li > a {
+    color:white;
+    font-family:MV Boli;
+    font-size:17px;
+}
+.navbar-brand{
+    color : white;
+    font-size:25px;
+}
+.navbar-brand a:hover {color: #000;}
+/*********end navbar******/
+.men p{
+    margin-top:350px;
+}
+.men .container h1 {
+    color:rgba(72, 64, 61, 0.74);
+font-family: 'Stalinist One', cursive;
+font-size:30px;
+}
+.men .container h3{
+ color:rgba(35, 82, 53, 0.68);
+ margin-left:30px;
+}
+.men_grid .container  {
+    background:white;
+    width:100%;
+    height:1800px;
+
+}
+.men_grid .container .items {
+margin-bottom:20px;
+font-family: 'Stalinist One', cursive;
+    color:rgba(72, 64, 61, 0.74);
+
+}
+.style1,.sports{
+    font-family: 'Stalinist One', cursive;
+    color:#789E79;
+    margin-bottom:50px;
+}
+
+.price-box img{
+    width:200px;
+    height:300px;
+}
+.item .btn-success{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+/**********start contact*******/
+.contact
+{
+    background-color:rgba(2,2,2,0.7);
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    height: 350px;
+}
+.contact h1
+{
+    padding-left: 700px;
+    color: orange ;
+    padding-top: 20px;
+    font-family: MV Boli;
+}
+.item1
+{
+    padding-top: 30px;
+}
+.item1 label
+{
+    font-size: 15px;
+    color: orange ;
+    font-family: MV Boli;
+}
+
+/*********end contact *********/

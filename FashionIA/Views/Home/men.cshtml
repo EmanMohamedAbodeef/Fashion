@@ -1,0 +1,209 @@
+﻿@{
+    ViewBag.Title = "men";
+    @Styles.Render("~/Content/men.css")
+}
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Stalinist+One' rel='stylesheet' type='text/css'>
+
+<!-- start our navbar-->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse fixed" data-target="#ournavbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="@Url.Action("Index", "Home")"> Lacoste </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse" id="ournavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="page-scroll">@Html.ActionLink("Home", "Index", "Home")</li>
+                <li class="page-scroll"> @Html.ActionLink("Beauty Tips", "beauty", "Home")</li>
+                <li class="page-scroll">@Html.ActionLink("Men Section", "men", "Home")</li>
+                <li class="page-scroll"> @Html.ActionLink("Women Section", "women", "Home")</li>
+                <li class="page-scroll"> @Html.ActionLink("Price Sections", "bootstrap", "Home")</li>
+                <li class="page-scroll"> @Html.ActionLink("Our Shops", "shops", "Home")</li>
+                <ul class="nav navbar-nav navbar-right">
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="text-center">
+                                <a href="@Url.Action("Create","Account")">
+                                    <span class="glyphicon glyphicon-user"></span>Sign Up
+                                </a>
+                            </li>
+                            <li class="text-center">
+                                <a href="@Url.Action("Login", "Account")">
+                                    <span class="glyphicon glyphicon-log-in"></span>Login
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </ul>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!---end navbar---->
+
+
+<div class="men">
+    <div class="container">
+        <p>
+            <h1>ESCAPE IN STYLE</h1><br>
+            <h3>SHOP BY FEATURE</h3>
+        </p>
+    </div>
+
+</div>
+<section class="men_grid">
+    <div class="container text-center">
+        <div class="items text-center">
+            <h1>SHOP BY FEATURE</h1>
+        </div>
+        <div class="style1 text-center">
+            <h3>Classic</h3>
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p8.jpg'><br>
+                    Code No:#2225
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p9.jpg'><br>
+                    Code No:#2201
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p7.jpg'><br>
+                    Code No:#2239
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <p class="center-block">
+                    <img src='~/Content/img/p10.jpg'><br>
+                    Code No:#2270
+                </p>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+        </div>
+        <div class="style1 text-center">
+            <h3>Casual</h3>
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p5.jpg'>
+                    <br>
+                    Code No:#2320
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p3.jpg'><br>
+                    Code No:#2366
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p2.jpg'><br>
+                    Code No:#2333
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p1.jpg'><br>
+                    Code No:#2399
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+
+        </div>
+        <div class="style1 text-center">
+            <h3>Sports</h3>
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p14.jpg'><br>
+                    Code No:#2450
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p13.jpg'><br>
+                    Code No:#2469
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p12.jpg'><br>
+                    Code No:#2486
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+
+        </div>
+        <div class="item col-lg-3">
+            <div class="price-box">
+                <div class="center-block">
+                    <img src='~/Content/img/p11.jpg'><br>
+                    Code No:#2437
+                </div>
+
+                <a href="#" class="btn btn-success">Available In</a>
+            </div>
+
+        </div>
+    </div>
+</section>

@@ -1,0 +1,55 @@
+﻿@model FashionIA.Models.TempArticle
+
+@{
+    ViewBag.Title = "Details";
+                    @Styles.Render("~/Content/All.css")
+
+}
+
+<div class="container" style="margin-top:5%">
+    <h2>Details</h2>
+
+    <div>
+
+        <hr />
+        <br />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Date)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ViewNo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ViewNo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Title)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Content)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Content)
+            </dd>
+
+        </dl>
+    </div>
+    <br/>
+    <p>
+        @Html.ActionLink("Back to History", "History")
+    </p>
+</div>

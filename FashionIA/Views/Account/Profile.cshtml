@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Profile";
+            @Styles.Render("~/Content/All.css")
+
+}
+
+<h2>Editors Profile</h2>
+<br />
+<br />
+
+@using (Html.BeginForm("Upload", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div>
+
+        <img src="~/images/@ViewBag.ImageURL" width="70 px" height="50px" /><br />
+        <br />
+        <input type="file" name="file" />
+        <input type="submit" value="Upload Image" name="Command" /><br />
+    </div>
+    <div>
+        @ViewBag.Message
+    </div>
+}
+
+@if (Session["UID"] != null)
+{
+    <section class="container">
+        <section class="info">
+            Hello @Session["Name"].ToString() <br />
+            Role is : @Session["Role"].ToString()<br />
+            Email   : @Session["Email"].ToString()<br />
+        </section>
+        <div class="container btn-group">
+            <input class="btn btn-info" type="button" value="Your History" onclick="location.href='@Url.Action("History", "Temp")'" />
+            <input class="btn btn-warning" type="button" value="Manage Articles" onclick="location.href='@Url.Action("Index", "Article")'" />
+            <input class="btn btn-success" type="button" value="Add new Article" onclick="location.href='@Url.Action("Create", "Article")'" />
+            <input class="btn btn-primary" type="button" value="go to Wall" onclick="location.href='@Url.Action("Index", "Temp")'" />
+            <input class="btn btn-danger" type="button" value="Log out" onclick="location.href='@Url.Action("LogOut", "Account")'" />
+
+        </div>
+    </section>
+    
+
+
+
+
+}
+

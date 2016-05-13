@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Wall</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--IE meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/css7.css" rel="stylesheet" />
+  
+</head>
+<body>
+        <!-- end our navbar -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1 col-xs-6">
+                    <nav class="navmenu navmenu-fixed-left" role="navigation">
+                        <a class="navmenu-brand" href="#">Red Country</a>
+                        
+                        <ul class="nav navmenu-nav">
+                            <li class="active">@Html.ActionLink("Home", "index", "Wall")</li>
+                            <li>@Html.ActionLink("Feedback", "feedback", "Wall")</li>
+                            <li>@Html.ActionLink("contact", "contact", "Wall")</li>
+                            <li>@Html.ActionLink("About", "about", "Wall")</li>
+                        </ul>
+
+                    </nav>
+                </div>
+                <div class="col-md-11 col-xs-6">
+                    <div class="container">
+
+
+
+                        @RenderBody()
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src="~/Scripts/jquery-1.10.2.js"></script>
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/js/bootstrap.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
+    
+    
+
+</body>
+</html>

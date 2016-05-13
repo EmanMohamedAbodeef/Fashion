@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	        font-size:16px;
+		background:#DDD;
+	background:url('../back.jpg')no-repeat center center fixed ;
+		-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+
+
+}
+
+/**********navbar*******/
+.navbar {
+	background:rgba(3,3,3,0.8);
+
+}
+.navbar .navbar-nav > li > a:hover
+{
+ background-color: #000;
+ color: orange;
+}
+
+.navbar .navbar-nav > li{
+}
+
+.navbar .navbar-nav > li > a {
+	color:white;
+	font-family:MV Boli;
+	font-size:17px;
+}
+.navbar-brand{
+	color : white;
+	font-size:25px;
+}
+.navbar-brand a:hover {color: #000;}
+/*********end navbar******/
+
+.txt {
+	 color:white;
+	 margin-left:200px;
+font-family: 'Stalinist One', cursive;
+font-size:30px;
+}
+
+.shop div.sec2
+{
+	padding-top: 80px;
+}
+.shop div.sec1
+{
+	padding-top: 80px;
+
+}
+.shop p > a > img
+{
+	height: 43px;
+	width: 43px;
+	float: right;
+}
+.shop p
+{
+	font-size: 17px;
+   font-family:MV Boli;
+}
+.shop h3
+{
+	font-colo
+}
+

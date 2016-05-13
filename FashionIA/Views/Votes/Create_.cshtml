@@ -1,0 +1,43 @@
+﻿@model FashionIA.Models.Vote
+
+@{
+    ViewBag.Title = "Create_";
+            @Styles.Render("~/Content/All.css")
+
+}
+
+<h2>Create_</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Vote</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <h2>
+                Rate 
+            </h2>
+
+            <div class="col-md-10">
+                @Html.RadioButtonFor(m => m.Name, "Excellent")Excellent <br />
+                @Html.RadioButtonFor(m => m.Name, "Good")Good <br />
+                @Html.RadioButtonFor(m => m.Name, "Satisfactory")Satisfactory <br />
+                @Html.RadioButtonFor(m => m.Name, "Improvement")Needs Improvement <br />
+                @Html.RadioButtonFor(m => m.Name, "Poor")poor <br />
+            </div>
+        </div>
+        <h4>@ViewBag.Message</h4>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Submit" class="btn btn-default" />
+
+            </div>
+        </div>
+    </div>
+}
+
+

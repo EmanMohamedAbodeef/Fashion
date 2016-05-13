@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    @Styles.Render("~/Content/style.css")
+}
+
+<body class="big">
+
+    <div class="container">
+        <section class="header text-center">
+            <div class="col-md-3 col-lg-4 "> <img alt="Brand" src="~/Content/img/1.png"></div>
+            <div class="col-md-9 col-sm-12 col-lg-8 info">
+                <h1>Welcome to your Application<span> fashion journal .. </span></h1>
+                <p class="lead"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. </p>
+            </div>
+        </section>
+        <section class="sec">
+
+            <div class=" col-md-6 col-lg-6 sec1">
+                <div class="thumbnail ">
+                    <img src="~/Content/img/13.jpg" alt="...">
+                    <div class="caption">
+                        <h3>Men Products</h3>
+                        <p>click and choose from our amazing collection</p>
+                        <p>
+                            <a href="@Url.Action("men", "Home")" class="btn btn-primary" role="button">Start</a>
+                            <a href="@Url.Action("Login", "Account")" class="btn btn-primary" role="button">Login</a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-6 col-lg-6 sec2 ">
+                <div class="thumbnail ">
+                    <img src="~/Content/img/14.jpg" alt="...">
+                    <div class="caption">
+                        <h3>Women Products</h3>
+                        <p>click and choose from our amazing collection</p>
+                        <p>
+                            <a href="@Url.Action("women", "Home")" class="btn btn-primary" role="button">Start</a>
+                            <a href="@Url.Action("Login", "Account")" class="btn btn-primary" role="button">Login</a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+</body>
+
+
+
+
+
